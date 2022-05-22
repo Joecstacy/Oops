@@ -1,0 +1,24 @@
+** INHERITANCE **
+1. single Inheritance: having one parent and one child class.
+2. Multiple Inheritance: having one parent and other child class inhereting the properties. 
+3. heirarchy: one parent ahving n number of child class.
+4. Multilevel (not possible with class, but possible to achieve with Interface).
+5. Cyclic (not possible)
+6. Hybrid (not possible)
+
+
+class A{
+{
+System.out.println("this is A");
+}
+}
+class B extends A{
+{
+System.out.println("this is B");
+}
+}
+class C{
+public static void main(String args[]){
+new B();
+}
+}
