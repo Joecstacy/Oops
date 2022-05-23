@@ -1,0 +1,15 @@
+## pOLYMORPHISM ##
+
+It is described by two words 
+1. Poly : it means many.
+2. Morph : It means forms.
+means One thing having many forms.
+Ex: Print() method used to print the many things. 
+
+##two kinds##
+1. Compile time Polymorphism: Static binding. can achieve by method overloading.
+        why it call as compile time because compiler can get the idea at time of method calling itself, that which method is being called.
+2. Runtime polymorphism: Dynamic binding. can get it by method overridinhg.   
+      here compiler will got confuse that which method should have to call because both are having theire own body.
+      so this work will be done by the interpretor.
+      
