@@ -1,0 +1,21 @@
+## Abstraction using Interface ##
+
+code:
+
+public interface Shape{
+	public static final int i= 34;
+
+	public abstract void calculateArea();
+}
+
+class Circle implements Shape{
+	public void calculateArea(){
+	System.out.println("Area of circle is: "+ 3.14*2*2);
+}
+	public static void main(String args[]){
+	
+	Shape s= new Circle();
+s.calculateArea();
+	
+}
+}
