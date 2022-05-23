@@ -1,0 +1,36 @@
+*****ABSTRACTION********
+It means showing the features of the code but hiding the details.
+For Ex. Google serach engine, whne we serach anything it feches the data and show us on screen but how internally things happening it never shows.
+how: by using the "abstract" keyword. having two cases.
+1. abstraction using the class: we can get 0%----100% abstraction by using class.
+  Abstract Method: sysntax--- abstract public void method_name();
+    it is an incomplete method cz method body not provided.
+    we can give the implementation of the method by using the child class.
+    rule: the class which contain the "abstract method" should be the abstract class.
+    we cannot make the object of the abstract class because it contains incomplete method.
+2. abstraction using the interface: but in case of interfaces we can only get 100% abstraction.
+  rule: 1. by default all the variables inside the interface are PUBLIC STATIC FINAL kind.
+        2. by default all the methods inside the interfaces are PUBLIC ABSTRACT.
+  so it is quite obious that 100% abstraction will achieve.
+  
+code:
+
+abstract class ISRO{
+abstract public void rocket();
+}
+class DRDO extends ISRO{
+public void rocket(){
+System.out.println("Sukrayan ................");
+}
+public void launch(){
+System.out.println("launching.............");
+}
+}
+class C{
+public static void main(String args[]){
+DRDO z= new DRDO();
+z.rocket();
+z.launch();
+}
+}
+}
